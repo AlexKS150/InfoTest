@@ -1,0 +1,73 @@
+@import "../common/body.scss";
+@import "../common/constants.scss";
+@import "../common/footer.scss";
+@import "../common/header.scss";
+@import "../common/init.scss";
+
+.main{
+    .wrapper{
+        .main-content-wrapper{
+            background:#fff;
+            width:795px;
+            .banner-group{
+                width:100%;
+                height:200px;
+                background-color: red;
+                .banner{
+                    background: url(../../../images/python-banner-01.jpg);
+                    background-size: 100% 100%;
+                    width:100%;
+                    height:100%;
+                }
+
+
+            }
+            .pay-list-group{
+                margin-top:16px;
+
+                .pay-list{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap:wrap;
+                    justify-content: space-between;
+                    margin:0 8px;
+              
+                    li{
+                        margin:0 8px 15px 5px;
+                        width:372px;
+                        height:152px;
+                        
+                        border:1px solid #cccccc;
+                        .choice-pic{
+                            width:100px;
+                            background: url(../../images/python-icon.png);
+                            height:100%;
+                            background-size:100% 100%;
+                            float:left;
+
+
+                        }
+                        .choice-text{
+                            float:right;
+                            width:270px;
+                            .choice-name{
+                                margin-top:15px;
+                                margin-left:16px;
+                            }
+                            .choice-desc{
+                                margin-top:15px;
+                                margin-left:15px;
+                                margin-right:15px;
+                                font-size:12px;
+                                color:#a5a5a5;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+

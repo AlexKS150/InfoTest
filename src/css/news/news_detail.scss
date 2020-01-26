@@ -1,0 +1,154 @@
+@import "../common/header.scss";
+@import "../common/body.scss";
+@import "../common/footer";
+@import "../common/init";
+@import "../common/constants";
+
+.main{
+  .wrapper{
+    .main-content-wrapper{
+      background: #fff;
+      padding:20px;
+      box-sizing: border-box;
+
+      .news-wrapper{
+        padding:20px;
+        .title{
+          font-size:24px;
+          color:$mainFontColor;
+          font-weight: 400;
+        }
+        .news-info{
+          overflow:hidden;
+          margin-top:20px;
+          color:$assistFontColor;
+          font-size:14px;
+          line-height:$newsInfoHeight;
+          height: $newsInfoHeight;
+          .info-group{
+            float:left;
+            .pub-time{
+              margin-left:20px;
+            }
+            .category{
+              margin-left:20px;
+              background: $themeColor;
+              color:#fff;
+              padding:0 5px;
+              border-radius: 2px;
+            }
+
+          }
+          .share-group{
+            float:right;
+            overflow:hidden;
+            span{
+              float:left;
+            }
+            .share-item{
+             float:left;
+             width:28px;
+             height:28px;
+             background:url("../../../images/weibo-icon.png");
+             background-size:100%;
+             background-repeat: no-repeat;
+             }
+            .weixin{
+              margin-left:10px;
+            }
+          }
+        }
+
+        .article{
+          margin-top:20px;
+          img{
+            max-width: 100%;
+          }
+          line-height: 30px;
+        }
+
+
+      }
+
+      .comment-wrapper{
+        border-top:1px solid $lineColor;
+        padding:20px;
+
+        .title{
+          color:$mainFontColor;
+          font-size:18px;
+          font-weight: 400;
+        }
+        .comment-textarea{
+          margin-top:10px;
+          width:100%;
+          resize: none;
+          outline:none;
+          border:1px solid #ccc;
+          border-radius: 5px;
+          font-size:14px;
+          padding:6px 10px;
+          box-sizing: border-box;
+        }
+        .nologin-textarea{
+          height:40px;
+          line-height: 28px;
+          overflow: hidden;
+        }
+        .login-textarea{
+          height:80px;
+
+        }
+        .submit-btn-group{
+          text-align:right;
+          margin-top:14px;
+          .submit-btn{
+            background: $themeColor;
+            border: none;
+            padding: 6px;
+            color:#fff;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+        }
+        .comment-list{
+
+          //overflow: hidden;
+          margin-top:20px;
+          li{
+            border-bottom: 1px solid $assistFontColor;
+            padding-bottom: 20px;
+             margin-bottom: 20px;
+              .comment-info{
+                overflow: hidden;
+                height: 40px;
+                line-height:40px;
+                color:$assistFontColor;
+                .avatar{
+                  float:left;
+                  width:40px;
+                  height:40px;
+                  border-radius: 50%;
+                }
+                .author{
+                  float:left;
+                  margin-left: 20px;
+                }
+                .pub-time{
+                  float:right;
+                }
+              }
+              .comment-content{
+                margin-left:50px;
+                margin-top:10px;
+              }
+          }
+        }
+      }
+
+    }
+  }
+}
+
+
+

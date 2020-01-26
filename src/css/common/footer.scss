@@ -1,0 +1,123 @@
+@import "constants";
+@import "init";
+
+.footer{
+    font-size: 14px;
+    color:#c9c9c9;
+    padding-top: 20px;
+    .top-group{
+        background:#555e67;
+        height:100px;
+        padding-top:26px;
+        box-sizing: border-box;
+        .top-inner-group{
+            width:$pagewidth;
+            margin:0 auto;
+            position:relative;
+            .logo-box{
+                width:168px;
+                height:54px;
+                float: left;
+                background:url("../../../images/python-head-logo.jpg");
+                background-size: 100%;
+
+            }
+            .detail-group{
+                float:left;
+                margin-left:84px;
+                .line1{
+                    overflow: hidden;
+                    .links{
+                        float:left;
+                        overflow:hidden;
+                        li{
+                            float:left;
+                            padding:0 10px;
+                            &:first-of-type{
+                                padding-left: 0;
+                            }
+                            a{
+                                color:#c9c9c9;
+                            }
+                            &:last-of-type{
+                                border-right:none;
+                            }
+                            border-right: 1px solid #c9c9c9;
+                        }
+                    }
+                    .about-us{
+                        float: left;
+                        margin-left:40px;
+                        .title{
+                            float:left;
+                        }
+                        .social-group{
+                            float:left;
+                            overflow: hidden;
+                            li{
+                                float:left;
+                                .text{
+                                    margin-left: 20px;
+                                    color:#fff;
+                                }
+                            }
+                            .weixin{
+                                .wx-qrcode{
+                                    width: 204px;
+                                    height:204px;
+                                    background: url("https://www-ws.gov.taipei/001/Upload/public/MMO/LAND/Img/%E6%9C%AC%E5%B1%80%E5%AF%A6%E5%83%B9%E7%99%BB%E9%8C%84%E5%B0%88%E5%8D%80.png");
+                                    background-size: 100%;
+                                    position:absolute;
+                                    right:350px;
+                                    top:-210px;
+                                    display: none;
+
+                                }
+                                &:hover .wx-qrcode{
+                                    display: block;
+                                }
+                                background:url("https://i2.wp.com/img.dagg.tw/pixnet/4dc9c853a1756b8c538cc12bfb0d0628.jpg");
+                                background-repeat: no-repeat;
+                                background-size: 25%;
+                                cursor: pointer;
+
+                            }
+                            .weibo{
+                                margin-left:20px;
+                                background: url("https://i2.wp.com/img.dagg.tw/pixnet/4dc9c853a1756b8c538cc12bfb0d0628.jpg");
+                                background-size: 25%;
+                                background-repeat: no-repeat;
+                                a{
+                                    color:#fff;
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+                .line2{
+                    overflow:hidden;
+                    margin-top:20px;
+                    .address{
+                        float:left;
+                    }
+                    .contact{
+                        float:left;
+                        margin-left:40px;
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    .bottom-group{
+        background: #383e44;
+        height:60px;
+        text-align: center;
+        line-height: 60px;
+    }
+}
+
