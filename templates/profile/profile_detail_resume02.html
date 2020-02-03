@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @include("./news_head_html.html")
+    <link rel="stylesheet" href="../../dist/css/news/news_detail.min.css">
+</head>
+<body>
+    @@include("../common/header.html")   
+
+    <div class="main" id="news">
+         <div class="wrapper">
+             <div class="main-content-wrapper">
+                 <div class="news-wrapper">
+                     <h1 class="title">專用前端網頁製作工具</h1>
+                     <article class="article"><img src="../../dist/images/hc-pic-01.jpg" alt="">
+                        前端開發工具梁狼滿目，但是會挑選「國際上前端工程師都會用到的工具」，而不是把整個工具都學會，在自學當中，我得到的答案是，在網站生產自動化方面，國際上都推薦Gulp跟Webpack，雖然兩個都很好，但是自學會強調先把一個東西弄熟就好，不然工作中還要懷疑目前的工具不好用還要換另外一個工具會有很大的時間成本，企業要求的是穩定不是改變創新，我就立即判斷下選擇Gulp,我在Gulp學得還可以就使用了。前端進階工具我則是選擇Vue，並不是主流或者是很都課程都開Vue所以去學，而是Vue的社群開發維護比較頻繁，甚至有例子導覽可以看，更何況有更多教學影片可以去看，不只如此，Vue的開發網站的觀念是我比較能掌握，Vue檔裡的三大模塊Template、Script和Style，正式HTMl5、Javascript跟CSS3的觀念非常相似，所以所Vue。
+                     </article>
+                 </div>
+            </div>
+
+            @@include("../common/common_side_wrapper.html")
+
+         </div>
+     </div>
+
+     @include("../common/footer.html")
+
+
+
+</body>
+</html>
