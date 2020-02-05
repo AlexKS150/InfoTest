@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    @include("./news_head_html.html")
-    <link rel="stylesheet" href="../../dist/css/news/news_detail.min.css">
+    @@include("./profile_head_html.html")
+    <link rel="stylesheet" href="../../dist/css/profile/profile_detail.min.css">
 </head>
 <body>
     @@include("../common/header.html")   
@@ -10,9 +10,10 @@
     <div class="main" id="news">
          <div class="wrapper">
              <div class="main-content-wrapper">
-                 <div class="news-wrapper">
+                 <div class="profile-wrapper">
                      <h1 class="title">個人履歷</h1>
-                     <article class="article"><img src="../../dist/images/Resume-pic.jpeg" alt="">
+                     <img src="../../dist/images/Resume-pic.jpeg" alt="">
+                     <article class="article">
                          非常抱歉，這裡不方便呈現自己的履歷，待會用人力銀行的電子履歷填寫本人履歷，面試時候則使用本人HTML5工具寫出來的履歷，紙本跟電子都有，但是因為個資洩漏問題，不方便在這呈現，造成不便儘請原諒，也不要脅迫在此頁面呈現履歷。
                      </article>
                  </div>
@@ -23,7 +24,7 @@
          </div>
      </div>
 
-     @include("../common/footer.html")
+    @@include("../common/footer.html")
 
 
 

@@ -33,7 +33,7 @@
                 .arrow{
                     font-family: Helvetica Neue, Helvetica, Ariva,sans-serif;
                     font-size:70px;
-                    color:#fff;
+                    color:#1A2BD2;
                     position:absolute;
                     top:50%;
                     margin-top:-45px;
@@ -60,14 +60,14 @@
                         li{
                             width:10px;
                             height:10px;
-                            border:1px solid rgb(110, 110, 110);
+                            border:1px solid rgb(26, 43, 210);
                             border-radius:50%;
                             float:left;
                             margin:0 8px;
                             box-sizing: border-box;
                             cursor:pointer;
                             &.active{
-                                background: rgb(110, 110, 110);
+                                background: rgb(26, 43, 210);
                             }
                         }
                     }

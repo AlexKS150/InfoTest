@@ -1,0 +1,76 @@
+@import '../common/init.scss';
+@import '../common/header.scss';
+@import '../common/body';
+@import '../common/footer';
+@import '../common/constants';
+
+.main{
+  .wrapper{
+    margin-top:20px;
+    width:1070px;
+    .work-wrapper{
+      background: #fff;
+      .work-info{
+        padding:20px;
+        .work-title{
+          color:$mainFontColor;
+          font-size:20px;
+          margin-bottom:10px;
+          float: left;
+        }
+        .type-group{
+          overflow:hidden;
+          float:right;
+          margin-bottom:10px;
+
+          .type{
+            font-size:16px;
+            line-height: 16px;
+          }
+          .miniature{
+            color:$miniatureColor;
+          }
+          .project{
+            color:$projectColor;
+          }
+          
+        }
+      }
+      .work-image-show{
+        width:100%;
+        height:600px;
+        background:#fff;
+        .work-image{
+          width:100%;
+          height:100%;
+        }
+      }
+    }
+    .bottom-wrapper{
+      margin-top:30px;
+      overflow:hidden;
+      width:100%;
+      .work-detail-wrapper{
+          float:left;
+        .item-group{
+          background:#fff;
+          padding:20px;
+          .item-title{
+            color:$mainFontColor;
+            font-size:18px;
+            border-left:5px solid $themeColor;
+            padding-left:16px;
+          }
+      }
+        .item-content{
+          margin-top:20px;
+          color:rgb(68,68,68);
+          line-height:1.8;
+        }
+      }
+    }
+  }
+}
+
+
+
