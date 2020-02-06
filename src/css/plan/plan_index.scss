@@ -9,114 +9,17 @@
     .wrapper{
         .main-content-wrapper{
             .list-outer-group{
-                background:#fff;
-                margin-top:14px;
-
-                .search-group{
-                    width: 795px;
-                    height:147px;
-                    border: 1px solid #ededed;
-                    .search{
-                        margin:52px 31px;
-                        width:735px;
-                        height:46px;
-                        .search-text{
-                            float:left;
-                            border:1px solid #d0d0d0;
-                            width:600px;
-                            height:100%;
-                            font-size:24px;
-                            resize: none;
-                            outline:none;
-                        }
-                        .search-btn{
-                            float:left;
-                            line-height:46px;
-                            width:121px;
-                            border:1px ;
-                            background: #f80000;
-                            color:#fff;
-                            font-size:18px;
-                            
-                        }
+                background-color: #fff;
+                .plan-images-group{
+                    .desc{
+                        text-align: center;
+                        font-size: 30px;
+                    }
+                    .edu-plan{
+                        width:100%
                     }
                 }
-
-                .list-inner-group{
-                    li{
-                        padding: 20px;
-                        border-bottom: 1px solid #eee;
-                        overflow: hidden;
-                        .thumbnail-group{
-                            float: left;
-                            height:162px;
-                            width:226px;
-                            img{
-                                width:100%;
-                                height:100%;
-
-                            }
-                        }
-                        .news-group{
-                            float: right;
-                            width:504px;
-                            height:162px;
-                            //background: #5c87d9;
-                            position:relative;
-                            .title{
-                                font-size:22px;
-                                a{
-                                    color:#212121;
-
-                                    &:hover{
-                                        color:$themeColor;
-                                    }
-                                }
-                            }
-                            .desc{
-                                color:#878787;
-                                font-size:14px;
-                                margin-top: 10px;
-                            }
-                            .more{
-                                position:absolute;
-                                left:0;
-                                right:0;
-                                bottom:0;
-                                font-size: 14px;
-                                color:#878787;
-                                .category{
-                                    color:$themeColor;
-                                }
-                                .pub-time{
-                                    float: right;
-                                    margin-left:20px;
-                                }
-                                .author{
-                                    float:right;
-                                }
-                            }
-                        }
-                    }
-                }
-
-                .load-more-group{
-                    padding:20px 0;
-                    text-align: center;
-                    .load-more{
-                        width:402px;
-                        height:40px;
-                        background:#d2dcea;
-                        color:#6d85ac;
-                        border: none;
-                        outline:none;
-                        cursor:pointer;
-
-                    }
-                }
-
-
-
+                
             }
         }
     }
