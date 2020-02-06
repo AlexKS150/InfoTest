@@ -5,11 +5,11 @@ function Header(){
 }
 Header.prototype.headerRecon=function(){
     var self=this;
-    if(self.idName==="news"){
+    if(self.idName==="profile"){
         self.navList.eq(0).addClass("active").siblings().removeClass("active");
-    }else if(self.idName==="course"){
+    }else if(self.idName==="frontEndWork"){
         self.navList.eq(1).addClass("active").siblings().removeClass("active");
-    }else if(self.idName==="payinfo"){
+    }else if(self.idName==="benefitInfo"){
         self.navList.eq(2).addClass("active").siblings().removeClass("active");
     }else{
         self.navList.eq(3).addClass("active").siblings().removeClass("active");
