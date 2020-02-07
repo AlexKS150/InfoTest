@@ -1,0 +1,19 @@
+@import "../common/body.scss";
+@import "../common/constants.scss";
+@import "../common/footer.scss";
+@import "../common/header.scss";
+@import "../common/init.scss";
+
+.main{
+    .wrapper{
+        .main-content-wrapper{
+            background:#fff;
+            width:795px;
+            .prove-pic{
+                width:50%;
+                float:left;
+            }
+
+        }
+    }
+}
