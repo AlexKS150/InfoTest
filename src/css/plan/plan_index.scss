@@ -12,11 +12,17 @@
                 background-color: #fff;
                 .plan-images-group{
                     .desc{
+                        padding-top:20px;
                         text-align: center;
                         font-size: 30px;
+                        color:purple;
+                    }
+                    .job-route{
+                        width:100%;
+                        border-bottom: purple solid 2px;
                     }
                     .edu-plan{
-                        width:100%
+                        width:100%;
                     }
                 }
                 
