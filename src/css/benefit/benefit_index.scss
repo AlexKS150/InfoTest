@@ -13,7 +13,7 @@
                 width:100%;
                 height:200px;
                 .banner{
-                    background: url(../../../dist/images/Education-01.jpg);
+                    background: url(../../../dist/images/book-edu.jpg);
                     background-size: 100% 100%;
                     width:100%;
                     height:100%;
@@ -42,12 +42,14 @@
                             .benefit-name{
                                 margin-top:15px;
                                 margin-left:16px;
+                                font-size:22px;
+                                text-align: center;
                             }
                             .benefit-desc{
                                 margin-top:15px;
                                 margin-left:15px;
                                 margin-right:15px;
-                                font-size:12px;
+                                font-size:16px;
                                 color:#a5a5a5;
                             }
                         }
